@@ -48,6 +48,12 @@ i po co on nam
 
 [18] http://www.cs.toronto.edu/~hinton/science.pdf
 
-[19]
+[19] http://stackoverflow.com/questions/34150612/classifying-new-text-using-mallet-package
 
-[2]
+[20]
+
+[21]
+
+[22]
+
+[23]
