@@ -54,7 +54,8 @@ tag_and_filter_texts <- function(path, filter){
 #' 
 #' @examples
 #' filtered_texts <- tag_and_filter_texts("corpus_test", "verb")
-#' prepare_for_mallet(filtered_texts)
+#' prepared_data <- prepare_for_mallet(filtered_texts)
+#' prepared_data
 
 prepare_for_mallet <- function(filtered_texts){
   filtered_texts_vector <- unlist(filtered_texts$filtered_texts)
