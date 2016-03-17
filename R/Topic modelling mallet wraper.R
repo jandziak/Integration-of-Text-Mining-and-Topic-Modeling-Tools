@@ -35,10 +35,10 @@ train <- function(text_array, names = NULL,
   word.freqs = mallet.word.freqs(topic.model)
   
   
-  topic.model$setAlphaOptimization(20, 50)
+  topic.model$setAlphaOptimization(alpha_opt, burn_in)
   
-  topic.model$train(200)
-  topic.model$maximize(10)
+  topic.model$train(train)
+  topic.model$maximize(maximize)
   
   topic.model
 }
