@@ -79,6 +79,14 @@ topic_table <- function(model){
   
 }
 
+#' Simple wordcloud visualization of the topics. 
+#' 
+#' @param topic_table List returned from the topic_table function.
+#' @param topic.id Id of the analised topic.
+#' @param no.of.words Number of words to be ploted.
+#' 
+#' @examples
+#' topic_wordcloud(table_of_topics)
 
 topic_wordcloud<- function(topic_table, topic.id = 15, 
                            no.of.words = 100, rot.per = 0, 
@@ -90,4 +98,4 @@ topic_wordcloud<- function(topic_table, topic.id = 15,
 }
 
 
-topic_wordcloud(table_of_topics)
+
