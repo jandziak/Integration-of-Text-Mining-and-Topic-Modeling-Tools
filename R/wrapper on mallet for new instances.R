@@ -4,7 +4,7 @@
 #' accesible and compatibile with standard R interface. The structure is simmilar
 #' to the one proposed in the caret package.
 
-source("new_instance_agolds.R")
+source("mallet script for new instances interference.R")
 
 #' Function to tag the text using tree tager
 #' 
